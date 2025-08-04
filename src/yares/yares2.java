@@ -14,12 +14,10 @@ public class yares2 {
         if (number == 0) {
             System.out.println("Inputted number Zero");
         } else if (number > 0) {
-            System.out.println(number + " is a positive number");
+            System.out.println("Inputted number is even");
         } else {
-            System.out.println(number + " is a negative number");
+            System.out.println("Inputted number is odd");
         }
-
-        input.close();
     }
 }
 
